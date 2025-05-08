@@ -1,0 +1,2 @@
+quarto render
+quarto publish netlify --no-browser
