@@ -1,0 +1,43 @@
+---
+title: "About"
+format:
+  html:
+    toc: true
+---
+::: {.hidden}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+:::
+
+
+## Professional Summary
+
+Associate Professor Oldmeadow is an experienced applied statistician with a strong record of statistical leadership in clinical trials and health data science. He is Head of Research Design at the Hunter Medical Research Institute.
+
+## Education
+
+- **PhD in Statistics**, Queensland University of Technology, 2009  
+- **B Mathematics (Honours)**, University of Newcastle, 2005
+
+## Research Interests
+
+- Causal Modelling  
+- Bayesian Adaptive Trials  
+- Pragmatic Trials  
+- Predictive Modelling
+
+## Affiliations
+
+- Hunter Medical Research Institute: [hmri.org.au](https://www.hmri.org.au/)
+
+
+## Social Links
+
+<div>
+<p><i class="fas fa-graduation-cap"></i><a href = https://scholar.google.co.uk/citations?user=Lo70aGIAAAAJ&hl=> Google Scholar</a></p>
+<p><i class="fab fa-github"></i> <a href="https://github.com/ChrisOldmeadow">GitHub</a></p>
+<p><i class="fab fa-linkedin"></i> <a href="https://au.linkedin.com/in/chris-oldmeadow-45188196">LinkedIn</a></p>
+<p><i class="fas fa-envelope"></i> <a href="/#contact">Contact</a></p>
+</div>
+
+
+

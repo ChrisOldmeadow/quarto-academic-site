@@ -1,0 +1,47 @@
+---
+title: "Grants"
+format:
+  html:
+    toc: true
+execute:
+  echo: false
+  eval: true
+  warning: false
+  message: false
+---
+
+## Successful Grant Funding
+
+
+```{r, results='asis'}
+library(dplyr)
+library(readr)
+library(knitr)
+library(kableExtra)
+
+grants <- read_csv("grant_successfull.csv", show_col_types = FALSE)
+
+# Remove rows with missing or invalid years
+grants <- grants |>
+  filter(!is.na(year)) |>
+  mutate(year = as.character(year)) |> 
+  mutate(amount = paste0("$", formatC(amount, format = "f", big.mark = ",", digits = 2))) |> 
+  arrange(desc(year), desc(amount))
+
+grants_split <- split(grants, grants$year)
+years <- names(grants_split)[order(names(grants_split), decreasing = TRUE)]
+
+for (yr in years) {
+  cat(paste0("<div class='grant-year'><h3>", yr, "</h3>\n"))
+  print(
+    kable(grants_split[[yr]][, c("title", "scheme", "role", "amount")],
+          col.names = c("Title", "Scheme", "Role", "Amount"),
+          format = "html",
+          escape = FALSE) |>
+      kable_styling(full_width = TRUE, bootstrap_options = c("striped", "hover"))
+  )
+  cat("</div>\n")
+}
+
+
+```

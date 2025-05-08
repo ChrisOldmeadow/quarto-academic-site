@@ -1,0 +1,12 @@
+---
+title: "Publications"
+format: html
+bibliography: scopus_clean.bib
+csl: apa-numeric-superscript.csl     # You can also use: nature.csl, vancouver.csl, etc.
+nocite: |
+  @*
+---
+
+
+::: {#refs}
+:::

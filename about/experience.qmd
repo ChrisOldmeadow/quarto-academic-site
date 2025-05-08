@@ -1,0 +1,48 @@
+---
+title: "Experience"
+format:
+  html:
+    toc: true
+---
+
+## Professional Experience
+
+### Head of Research Design  
+**Hunter Medical Research Institute** — Newcastle, Australia  
+🗓️ Jan 2025 – Present  
+[hmri.org.au](https://www.hmri.org.au)  
+
+**Responsibilities include:**
+- Strategic and business planning  
+- Leadership, Teamwork and Workforce development  
+- Research Design oversight  
+- Stakeholder engagement  
+
+---
+
+### Associate Director, Data Sciences  
+**Hunter Medical Research Institute** — Newcastle, Australia  
+🗓️ Jun 2018 – Dec 2024  
+
+**Responsibilities include:**
+- Leading a team of 20FTE staff  
+- Strategy development  
+- Senior consultant  
+- Study design  
+
+---
+
+### Senior Statistician  
+**Hunter Medical Research Institute** — Newcastle, Australia  
+🗓️ Jan 2012 – Jun 2018  
+
+Leading and mentoring statisticians.
+
+---
+
+### HMRI Post-doctoral Fellow  
+**University of Newcastle** — Newcastle, Australia  
+🗓️ Jan 2009 – Jan 2012  
+[www.newcastle.edu.au](https://www.newcastle.edu.au)  
+
+Researching in statistical genetics and consulting in statistics.

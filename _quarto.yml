@@ -1,0 +1,26 @@
+project:
+  type: website
+
+website:
+  title: "Chris Oldmeadow"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about/about.qmd
+      - text: "Experience"
+        href: about/experience.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "Grants"
+        href: grants.qmd
+      - text: "CV"
+        href: cv/CV-Oldmeadow.pdf
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    includes:
+      in-header: fontawesome.html
