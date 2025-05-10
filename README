@@ -1,2 +1,15 @@
+Academic website in quarto.
+
+Need to:
+
+- manually update grants in teh grants_successful.csv file
+- manually download bib file from scopu to get updated list of pubs
+- clean the bib file since scopus formats dont work with R
+
+
+To render and push to netlify:
 quarto render
 quarto publish netlify --no-browser
+
+TODO: 
+- Manual update of publicaitons

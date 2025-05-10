@@ -2,3 +2,31 @@
 body {
   font-family: 'Segoe UI', sans-serif;
 }
+
+details summary {
+  font-size: 1.1em;
+  font-weight: 600;
+  margin-top: 1em;
+  cursor: pointer;
+}
+
+details[open] summary {
+  font-weight: bold;
+}
+
+.pub-entry {
+  margin-left: 1em;
+  margin-bottom: 1.2em;
+}
+
+.pub-title {
+  font-weight: 600;
+  margin-bottom: 0.1em;
+}
+
+.pub-authors, .pub-meta {
+  font-size: 0.95em;
+  color: #444;
+  margin: 0;
+}
+

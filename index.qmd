@@ -1,22 +1,41 @@
 ---
-title: "Chris Oldmeadow"
+title: " "
 format:
   html:
-    theme: cosmo
     css: styles.css
     toc: false
 execute:
   echo: false
 ---
 
-I’m a biostatistician and data scientist who works with clinicians and researchers to transform data into insights that improve health care and outcomes. My work focuses on the design of high-quality, innovative studies, with a strong emphasis on methodological rigour, collaboration, and real-world impact.
+::: {.columns}
 
-```{r setup-impact-summary, echo=FALSE, eval=!file.exists("impact_summary.md")}
-source("update_impact.R")
-```
+::: {.column width="35%"}
 
-```{r, results="asis"}
-cat(readLines("impact_summary.md"), sep = "\n")
-```
+![Chris Oldmeadow](images/portrait_vignette.jpg){.rounded style="max-width: 250px;"}
 
-Download my [CV (PDF)](cv/CV-Oldmeadow.pdf).
+:::
+
+::: {.column width="65%"}
+
+I’m a biostatistician and data scientist who works with clinicians and researchers to transform data into insights that improve health care and outcomes.
+
+My work focuses on the design of high-quality, innovative studies, with a strong emphasis on methodological rigour, collaboration, and real-world impact.
+
+[Download CV (PDF)](cv/CV-Oldmeadow.pdf)
+
+<br>
+
+[![ORCID](https://img.shields.io/badge/ORCID-0000--0001--6104--1322-green?logo=orcid)](https://orcid.org/0000-0001-6104-1322)  
+[![GitHub](https://img.shields.io/badge/GitHub-ChrisOldmeadow-181717?logo=github)](https://github.com/ChrisOldmeadow)  
+[![Email](https://img.shields.io/badge/Email-christopher.oldmeadow@hmri.org.au-blue)](mailto:christopher.oldmeadow@hmri.org.au)
+
+:::
+
+:::
+
+
+
+---
+
+

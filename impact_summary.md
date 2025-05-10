@@ -1,4 +1,3 @@
-## Research Impact Summary
 
 | Metric             | Value                    |
 |--------------------|--------------------------|

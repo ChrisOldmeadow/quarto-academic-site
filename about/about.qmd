@@ -30,6 +30,17 @@ Associate Professor Oldmeadow is an experienced applied statistician with a stro
 - Hunter Medical Research Institute: [hmri.org.au](https://www.hmri.org.au/)
 
 
+
+```{r setup-impact-summary, echo=FALSE, eval=!file.exists("impact_summary.md")}
+source("update_impact.R")
+```
+
+```{r, echo = FALSE, results="asis"}
+cat(readLines("impact_summary.md"), sep = "\n")
+```
+
+
+
 ## Social Links
 
 <div>

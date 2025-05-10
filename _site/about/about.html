@@ -132,6 +132,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">Education</a></li>
   <li><a href="#research-interests" id="toc-research-interests" class="nav-link" data-scroll-target="#research-interests">Research Interests</a></li>
   <li><a href="#affiliations" id="toc-affiliations" class="nav-link" data-scroll-target="#affiliations">Affiliations</a></li>
+  <li><a href="#research-impact-summary" id="toc-research-impact-summary" class="nav-link" data-scroll-target="#research-impact-summary">Research Impact Summary</a></li>
   <li><a href="#social-links" id="toc-social-links" class="nav-link" data-scroll-target="#social-links">Social Links</a></li>
   </ul>
 </nav>
@@ -190,6 +191,47 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Hunter Medical Research Institute: <a href="https://www.hmri.org.au/">hmri.org.au</a></li>
 </ul>
+</section>
+<section id="research-impact-summary" class="level2">
+<h2 class="anchored" data-anchor-id="research-impact-summary">Research Impact Summary</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Metric</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>📚 Publications</td>
+<td>394 peer-reviewed articles</td>
+</tr>
+<tr class="even">
+<td>📈 Citations (GS)</td>
+<td>22,439</td>
+</tr>
+<tr class="odd">
+<td>🔬 h-index</td>
+<td>60</td>
+</tr>
+<tr class="even">
+<td>🎯 i10-index</td>
+<td>234</td>
+</tr>
+<tr class="odd">
+<td>💰 Grants (Total)</td>
+<td>$50,742,112</td>
+</tr>
+<tr class="even">
+<td>💼 CI Funding</td>
+<td>$30,974,640</td>
+</tr>
+<tr class="odd">
+<td>🤝 AI Funding</td>
+<td>$19,767,266</td>
+</tr>
+</tbody>
+</table>
 </section>
 <section id="social-links" class="level2">
 <h2 class="anchored" data-anchor-id="social-links">Social Links</h2>
@@ -304,7 +346,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("www\.chrisoldmeadow\.com");
+      var filterRegex = new RegExp("https:\/\/www\.chrisoldmeadow\.com");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

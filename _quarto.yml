@@ -20,7 +20,7 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: yeti
     css: styles.css
     includes:
       in-header: fontawesome.html

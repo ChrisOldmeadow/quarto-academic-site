@@ -1,12 +1,17 @@
 ---
-title: "Publications"
-format: html
-bibliography: scopus_clean.bib
-csl: apa-numeric-superscript.csl     # You can also use: nature.csl, vancouver.csl, etc.
-nocite: |
-  @*
+title: "📚 Publications"
+format:
+  html:
+    toc: true
+    toc-location: left
+    toc-title: "On this page"
+    number-sections: false
+execute:
+  echo: false
 ---
 
 
-::: {#refs}
-:::
+```{r, results='asis'}
+cat(readLines("journal_publications.qmd"), sep = "\n")
+```
+  
