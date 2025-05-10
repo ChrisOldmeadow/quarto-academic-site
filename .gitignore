@@ -1,0 +1,5 @@
+/.quarto/
+.Rproj.user
+.httr-oauth
+.orcid_cache/
+.Rhistory
