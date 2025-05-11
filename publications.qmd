@@ -12,6 +12,6 @@ execute:
 
 
 ```{r, results='asis'}
-cat(readLines("journal_publications.qmd"), sep = "\n")
+cat(readLines("./data/journal_publications.qmd"), sep = "\n")
 ```
   

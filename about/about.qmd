@@ -31,12 +31,8 @@ Associate Professor Oldmeadow is an experienced applied statistician with a stro
 
 
 
-```{r setup-impact-summary, echo=FALSE, eval=!file.exists("impact_summary.md")}
-source("update_impact.R")
-```
-
 ```{r, echo = FALSE, results="asis"}
-cat(readLines("impact_summary.md"), sep = "\n")
+cat(readLines("../data/impact_summary.md"), sep = "\n")
 ```
 
 

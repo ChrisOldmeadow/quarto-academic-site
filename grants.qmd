@@ -18,8 +18,8 @@ library(dplyr)
 library(readr)
 library(knitr)
 library(kableExtra)
-
-grants <- read_csv("grant_successfull.csv", show_col_types = FALSE)
+library(here)
+grants <- read_csv(here("data","grant_successfull.csv"), show_col_types = FALSE)
 
 # Remove rows with missing or invalid years
 grants <- grants |>
