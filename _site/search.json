@@ -128,9 +128,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Chris Oldmeadow",
+    "title": "Welcome — this site shares my work and research.",
     "section": "",
-    "text": "Chris Oldmeadow\n\n\n\nI’m a biostatistician and data scientist who works with clinicians and researchers to transform data into insights that improve health care and outcomes.\nMy work focuses on the design of high-quality, innovative studies, with a strong emphasis on methodological rigour, collaboration, and real-world impact.\nDownload CV (PDF)"
+    "text": "I’m a biostatistician and data scientist who works with clinicians and researchers to transform data into insights that improve health care and outcomes.\nMy work focuses on the design of high-quality, innovative studies, with a strong emphasis on methodological rigour, collaboration, and real-world impact.\nDownload CV (PDF)\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbout this site\n\n\n\n\n\nThis site is built with Quarto and automatically syncs every month with my ORCID profile to keep my publications up to date.\nView the source on GitHub\n\n\n\n🕒 Last updated: 11 May 2025"
   },
   {
     "objectID": "data/impact_summary.html",

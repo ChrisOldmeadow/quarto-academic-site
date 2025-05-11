@@ -1,5 +1,5 @@
 ---
-title: " "
+title: "Welcome — this site shares my work and research."
 format:
   html:
     css: styles.css
@@ -12,7 +12,7 @@ execute:
 
 ::: {.column width="35%"}
 
-![Chris Oldmeadow](images/portrait_vignette.jpg){.rounded style="max-width: 250px;"}
+![](images/portrait_vignette.jpg){.rounded style="max-width: 250px;"}
 
 :::
 
@@ -35,7 +35,19 @@ My work focuses on the design of high-quality, innovative studies, with a strong
 :::
 
 
+---
 
+::: {.callout-note collapse=true title="About this site"}
+
+This site is built with [Quarto](https://quarto.org) and automatically syncs every month with my [ORCID](https://orcid.org/0000-0001-6104-1322) profile to keep my publications up to date.
+
+[View the source on GitHub](https://github.com/ChrisOldmeadow/quarto-academic-site)  
+
+:::
+
+```{r, echo=FALSE, results='asis'}
+cat(format(Sys.Date(), "🕒 Last updated: %d %B %Y"))
+```
 ---
 
 

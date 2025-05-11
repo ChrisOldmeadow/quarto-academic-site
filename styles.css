@@ -30,3 +30,11 @@ details[open] summary {
   margin: 0;
 }
 
+.columns {
+  gap: 1.5rem; /* Add horizontal and vertical spacing between columns */
+  flex-wrap: wrap; /* Ensures they stack nicely on small screens */
+}
+
+.column {
+  margin-bottom: 1rem;
+}
