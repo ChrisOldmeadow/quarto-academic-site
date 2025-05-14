@@ -18,4 +18,4 @@ build_site:
 	quarto render
 
 deploy_site:
-	NETLIFY_AUTH_TOKEN=$$NETLIFY_AUTH_TOKEN quarto publish netlify --no-browser
+	NETLIFY_AUTH_TOKEN=$$NETLIFY_AUTH_TOKEN quarto publish netlify --no-browser --id=88b06a49-90c2-4647-8d2f-51fc30f3a40d

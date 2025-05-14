@@ -38,3 +38,15 @@ details[open] summary {
 .column {
   margin-bottom: 1rem;
 }
+
+.bio-img {
+  float: left;
+  shape-outside: circle();
+  clip-path: circle();
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  margin-right: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 50%;
+}

@@ -25,6 +25,12 @@ Associate Professor Oldmeadow is an experienced applied statistician with a stro
 - Pragmatic Trials  
 - Predictive Modelling
 
+
+## Explore Research Topics
+
+<iframe src="../data/wordcloud2/wordcloud.html" width="100%" height="600" style="border: none;"></iframe>
+
+
 ## Affiliations
 
 - Hunter Medical Research Institute: [hmri.org.au](https://www.hmri.org.au/)

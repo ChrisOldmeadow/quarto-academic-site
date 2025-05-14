@@ -14,4 +14,5 @@ execute:
 ```{r, results='asis'}
 cat(readLines("./data/journal_publications.qmd"), sep = "\n")
 ```
+
   

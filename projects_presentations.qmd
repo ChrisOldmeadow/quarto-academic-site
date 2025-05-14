@@ -1,0 +1,79 @@
+---
+title: "🧠 Projects & Presentations"
+format:
+  html:
+    toc: true
+    number-sections: false
+---
+
+## 🧪 Research Projects
+
+### Adaptive trials in Implementation Science
+
+This project applies Bayesian adaptive trial designs to optimise complex, multi-component implementation strategies in real-world settings. Leveraging tools such as arm-dropping, response-adaptive allocation, and factorial designs, the aim is to efficiently identify effective components of implementation interventions. The goal is to accelerate scale-up by improving trial efficiency, reducing uncertainty, and tailoring interventions to context.
+
+* PhD student: Erin Nolan
+* Collaborators: Dr Alix Hall, Prof Liz Holliday, Dr Daniel Barker 
+
+
+### Pragmatic Target Trials
+
+Developing methods and guidelines for Target Trials in pragmatic evaluations, like cluster comparative studies. Major applied project as part of the evlaiton and impact of the Diabtes Aliance Project Plus (DAP+).
+
+* PhD Student: Josh Dizon
+* Collaborators: Prof Alexis Hure, Dr Daniel Barker, Dr Patrick Skippen 
+
+### AI-powered models to predict whether medical research will lead to translation
+This project develops machine learning and large language model (LLM)-based tools to predict the translational potential of research projects. By analysing research outputs, contextual metadata, and downstream indicators such as patents, policy citations, and media coverage, the models aim to classify and forecast which projects are most likely to lead to real-world impact. The goal is to support strategic research investment, enhance impact planning, and accelerate pathways from discovery to translation.
+
+
+* PhD Student: Matthew Clapham
+* Collaborators: Dr Simon Deaming, Dr Carlos Riveros
+
+### Health Informatics in the Hunter
+Building infrastructure to support rapid and secure access to NSW Health linked administrative and clinical data for research purposes.
+
+* Health Informatician: Shaun Grady
+* Collaborators: Port Waratah Coal Services, Hunter New England Health District 
+
+---
+
+## 🎤 Presentations
+
+### Interpreting Evidence from Real World Data
+*Breast Cancer Trials, ASM workshop, 2024*
+
+<iframe src="https://chrisoldmeadow.github.io/2024-BCT-RWE/#/title-slide width="100%" height="500" style="border: 1px solid #ccc;"></iframe>
+
+### I want to do research where do I start?
+*TROG, ASM, 2024*
+
+<iframe src="https://chrisoldmeadow.github.io/TROG_TRW_Research_Questions/" width="100%" height="500" style="border: 1px solid #ccc;"></iframe>
+
+
+### HMRI Data Sciences
+*HMRI Lunch'n'Learn series, 2022*
+<iframe src="https://chrisoldmeadow.github.io/lunch-learn-2022/" width="100%" height="500" style="border: 1px solid #ccc;"></iframe>
+
+### Adaptive Trials
+*National Centre of Implementation Science, 2021*
+<iframe src="https://chrisoldmeadow.github.io/AdaptiveTrials" width="100%" height="500" style="border: 1px solid #ccc;"></iframe>
+
+### The Role of the biostatistician
+*Central Coast Health Distric Research Symposium, 2020*
+<iframe src="https://chrisoldmeadow.github.io/role_of_biostatistician/" width="100%" height="500" style="border: 1px solid #ccc;"></iframe>
+
+
+---
+
+## 🧰 Playground
+
+### 🔖 Bibliographic Topic Tagger
+A tool that tags your BibTeX bibliography files using AI to summarise and cluster papers into research themes.  
+[View Project on GitHub](https://github.com/ChrisOldmeadow/bibtex-analyser-llm)
+
+
+### 🔬 Simulation Playground
+Code notebooks and demos for statistical design decisions, like blinded SSR, Bayesian stopping rules, and adaptive trials. *(Coming soon)*
+
+---

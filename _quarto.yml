@@ -1,5 +1,11 @@
 project:
   type: website
+  
+resources:
+  - data/interactive_wordcloud.html
+  - data/tags/**
+  - data/wordcloud2/wordcloud.html
+  - data/wordcloud2/word_data.js
 
 website:
   title: "Chris Oldmeadow"
@@ -15,6 +21,8 @@ website:
         href: publications.qmd
       - text: "Grants"
         href: grants.qmd
+      - text: "Projects & Presentations"
+        href: projects_presentations.qmd
       - text: "CV"
         href: cv/CV-Oldmeadow.pdf
 

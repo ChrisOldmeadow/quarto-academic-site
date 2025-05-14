@@ -1,5 +1,5 @@
 ---
-title: "Welcome — this site shares my work and research."
+title: " "
 format:
   html:
     css: styles.css
@@ -8,19 +8,13 @@ execute:
   echo: false
 ---
 
-::: {.columns}
+<img src="images/portrait_vignette.jpg" class="bio-img" alt="Chris Oldmeadow" />
 
-::: {.column width="35%"}
-
-![](images/portrait_vignette.jpg){.rounded style="max-width: 250px;"}
-
-:::
-
-::: {.column width="65%"}
 
 I’m a biostatistician and data scientist who works with clinicians and researchers to transform data into insights that improve health care and outcomes.
 
 My work focuses on the design of high-quality, innovative studies, with a strong emphasis on methodological rigour, collaboration, and real-world impact.
+
 
 [Download CV (PDF)](cv/CV-Oldmeadow.pdf)
 
@@ -30,10 +24,12 @@ My work focuses on the design of high-quality, innovative studies, with a strong
 [![GitHub](https://img.shields.io/badge/GitHub-ChrisOldmeadow-181717?logo=github)](https://github.com/ChrisOldmeadow)  
 [![Email](https://img.shields.io/badge/Email-christopher.oldmeadow@hmri.org.au-blue)](mailto:christopher.oldmeadow@hmri.org.au)
 
-:::
 
-:::
+## 🔍 Explore My Research Topics
 
+<a href="/data/wordcloud2/wordcloud.html" target="_blank" class="btn btn-outline-primary">
+  🧠 Interactive Research Word Cloud
+</a>
 
 ---
 
